@@ -15,10 +15,13 @@ Variables
 --secondary: #1d0243;
 --accent: #42029b;
 */
+/*
+Jeg er Filip, 19, som trivest godt med diverse arbeid, men er for tiden heltidsstudent. Jeg har tidligere jobbet i svært forskjellige arbeidsmiljø og har dermed lært å tilpasse meg varierte arbeidsforhold. Utfordinger er noe jeg trives godt med, og jeg takker sjeldent nei til å bli presset litt. Fremover ønsker jeg å studere ingeniørfag, men er åpen for å jobbe helgevakter. Ta gjerne kontakt!
+*/
 
 
 :root {
-	--main-color: #6412d7;
+	--main-color: #005f73;
 	--blue: #3498db;
     --white: #ffffff;
     --dark-aqua: #11806a;
@@ -32,6 +35,7 @@ Variables
     --light-blue: #03a9f4;
     --light-green: #8bc34a;
     --dark-purple: #673ab7;
+	--dark-blue: #001219;
     --indigo: #3f51b5;
     --teal: #009688;
     --lime: #cddc39;
@@ -70,7 +74,7 @@ Global Settings
 
 body {
 	min-height: 100vh;
-	background-image: linear-gradient(to bottom right, var(--black), var(--dark-purple));
+	background-image: linear-gradient(to bottom right, var(--black), var(--dark-blue));
 	background-attachment: fixed;
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
@@ -249,7 +253,7 @@ button {
 	top: 0;
 	height: 100%;
 	width: 0%;
-	background-color: var(--dark-purple);
+	background-color: var(--dark-blue);
 	z-index: -1;
 	transition: width 0.3s ease;
 }
