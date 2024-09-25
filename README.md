@@ -1,2 +1,2 @@
 ### Personal website for Filip R. Spanne
-Containing CV, general info as well as contact information.
+Prototype website, trying a full rewrite of the current one.
